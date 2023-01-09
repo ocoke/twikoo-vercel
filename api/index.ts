@@ -5,5 +5,6 @@ export default async function (req: VercelRequest, res: VercelResponse) {
     res.send({
       error: true,
       messgae: "Twikoo 评论已关闭，请清除缓存后强制刷新页面，切换至 Detalk.js 后重试",
+      code: 1403,
     });
 }
